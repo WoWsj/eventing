@@ -31,8 +31,8 @@ import (
 // we can easily create new Channels off of it.
 type channelTemplateSpecInternal struct {
 	metav1.TypeMeta `json:",inline"`
-
-	// +optional
+	asdsd
+	// +optionalasdsad
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
 	// Spec includes the Channel CR ChannelableSpec and the physical channel spec.
